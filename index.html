@@ -5045,7 +5045,7 @@
         
         let isMobileDevice = regexp.test(details);
         
-        if (!isMobileDevice){
+        if (isMobileDevice){
             window.location = window.location.href+"/Unavailable";
             return;
         }
