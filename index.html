@@ -4492,7 +4492,7 @@
     function save_info(custom_el = null, name = null, info = null, images = null, note = false) {
         if (custom_el == null) {
             if (slideshow_length == 0)
-                active_info_el.querySelector("img").src = "https://i.ibb.co/NYCtjSn/unknown.png";
+                active_info_el.querySelector("img").src = "Images/Unknown.png";
             else
                 active_info_el.querySelector("img").src = slideshow.querySelectorAll(".DB-pic_wrapper img")[0].src;
 
@@ -4504,7 +4504,7 @@
                 return;
 
             if (images.length == 0)
-                custom_el.querySelector("img").src = "https://i.ibb.co/NYCtjSn/unknown.png";
+                custom_el.querySelector("img").src = "Images/Unknown.png";
             else
                 custom_el.querySelector("img").src = images[0];
 
