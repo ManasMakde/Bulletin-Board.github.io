@@ -5045,10 +5045,10 @@
         
         let isMobileDevice = regexp.test(details);
         
-        if (isMobileDevice)
+        if (isMobileDevice){
             window.location = "/Inaccessible";
-        
-        return;
+            return;
+        }
 
         reset_origin(false);
         custom_css.addEventListener("input", custom_css_changed);
