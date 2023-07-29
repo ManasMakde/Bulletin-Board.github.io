@@ -18,3 +18,4 @@ Complete with:
 To get started, Open settings by clicking on the top left gear icon, Then press the "Help Demo" and it will give you a complete set of instructions on how to use every feature 
 
 ![Help Demo](Images/HelpDemo.png)
+![Example](Images/Example.png)
