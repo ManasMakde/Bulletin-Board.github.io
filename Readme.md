@@ -1,5 +1,7 @@
 ## Virtual Bulletin Board
 
+Try it out: https://virtual-bulletin-board.netlify.app/
+
 A simple yet versatile tool to help you visually represent and interconnect your data with maximum flexibility & customization.
 
 Complete with:
